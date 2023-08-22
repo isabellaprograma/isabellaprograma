@@ -1,0 +1,21 @@
+programa  
+{  
+ 
+	inclua biblioteca Matematica-->mat   
+	funcao inicio()  
+	{  
+          real resultado,expoente,base  
+		 
+		escreva("Digite a base:") 
+    leia (base)   
+		escreva("Digite a potencia:")
+    leia(expoente)
+
+    resultado = mat.potencia (base,expoente)
+    
+    escreva("este é o resultado",resultado)
+    leia (resultado)
+
+ 
+	}  
+}  
